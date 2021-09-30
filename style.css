@@ -1,0 +1,25 @@
+body {
+  background-color: teal;
+}
+
+.searchWrapper {
+  padding-top: 10vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.searchWrapper input {
+  padding: 10px;
+  margin: 5px;
+}
+
+.searchWrapper div {
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+.searchWrapper button {
+  margin: 5px;
+  padding: 10px;
+  background-color: green;
+}

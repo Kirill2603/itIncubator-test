@@ -28,10 +28,13 @@ let array = [0,-5,8,-19,100,20,3,-30,101,5]
 
 let findMax = (arr) => {
   let arrMax = arr[0]
+  let arrMin = arr[0]
   for (i=0;i<arr.length;i++) {
     if (arr[i] > arrMax){ arrMax=arr[i]}
-    console.log(arrMax)
+    else if (arr[i]< arrMin) { arrMin = arr[i]}
   }
+  console.log(`Максимальное значение :${arrMax}`)
+  console.log(`Минимальное значение :${arrMin}`)
 }
 
 findMax(array)
